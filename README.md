@@ -18,6 +18,13 @@ Clone the repo:
 git clone https://github.com/Abdullahi023/Data-Science-Project.git
 cd Data-Science-Project
 ```
+Set up Python (Window):
+py -m venv .venv
+
+```bash
+.venv\Scripts\Activate.ps1
+pip install -r req.txt4
+```
 
 Set up Python (macOS/Linux):
 

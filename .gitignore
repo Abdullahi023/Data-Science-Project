@@ -1,11 +1,16 @@
+# Python environment
 .venv/
 __pycache__/
 .env
-data/raw/
-data/processed/
-.env
-.venv/
-__pycache__/
-data/raw/
-data/processed/
-*.parquet
+*.pyc
+
+# MacOS
+.DS_Store
+
+# Ignore other raw datasets
+data/raw/*
+!data/raw/cve_sample.parquet
+
+# Ignore other processed datasets
+data/processed/*
+!data/processed/cve_clean.parquet
