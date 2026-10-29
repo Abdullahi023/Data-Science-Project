@@ -1,0 +1,10 @@
+pandas
+numpy
+pyarrow
+scipy
+matplotlib
+seaborn
+notebook
+ipykernel
+neo4j
+python-dotenv
