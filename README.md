@@ -23,7 +23,7 @@ Set up Python (Window):
 ```bash
 py -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install -r req.txt4
+pip install -r req.txt
 ```
 
 Set up Python (macOS/Linux):
